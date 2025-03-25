@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {Partial<CustomThemeConfig & {extend: Partial<CustomThemeConfig>}> & DefaultTheme} */
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 export default {
